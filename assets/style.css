@@ -1,0 +1,148 @@
+nav {
+    background-color: #2C3E50;
+}
+
+/* profilo  */
+
+.bg1-margin {
+    background-color: #1ABC9C;
+    margin-top: 3rem;
+}
+
+/* portfolio  */
+
+.bg1-margin img {
+    width: 300px;
+}
+
+.content {
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.portfolio .content:hover img {
+    filter:blur(3px);
+    cursor: pointer;
+}
+
+.content .fa-plus {
+    display: none;
+    font-size: 6em;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.portfolio .content:hover .fa-plus {
+    display: unset;
+    cursor: pointer;
+}
+
+.content .fa-plus:hover {
+    text-shadow: #FFF 1px 0 10px;
+    transition: 1s;
+}
+
+.star2 {
+    font-size: 2em;
+}
+
+.star2::before {
+    position: relative ;
+    bottom: 7px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star2::after {
+    position: relative ;
+    bottom: 7px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star2-black {
+    font-size: 2em;
+}
+
+.star2-black::before {
+    position: relative ;
+    bottom: 7px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.star2-black::after {
+    position: relative ;
+    bottom: 7px;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* contatti  */
+
+.contact-me button {
+    color: white;
+    background-color: #1ABC9C ;
+    border: 0;
+    border-radius: 5px;
+    padding: .3rem .7rem;
+}
+
+/* about  */
+
+.bg1 {
+    background-color: #1ABC9C;
+}
+
+/* footer */
+
+.footer-big {
+    background-color: #3A546D;
+}
+
+.icon-cont {
+    display: inline-block;
+    border: 1px solid white;
+    padding: .3rem;
+    border-radius: 50%;
+    margin-right: .2rem;
+    width: 2.2em;
+    height: 2.2em;
+}
+
+.icon-cont:hover {
+    cursor: pointer;
+}
+
+.text_colored {
+    color: #1ABC9C;
+}
+
+.text_colored:hover {
+    cursor: pointer;
+}
+
+.footer-small {
+    background-color: #2C3E50;
+}
